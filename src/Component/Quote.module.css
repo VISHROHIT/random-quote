@@ -1,0 +1,43 @@
+.div{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: cyan;
+    transition: background-color 0.5s ease-in-out;
+    
+}
+
+.div2{
+    margin: auto;
+    min-height: 20%;
+    transition: background-color 0.5s ease-in-out;
+    min-width: 40%;
+    max-width: 60%;
+    background-color: white;
+    color: cyan;
+    padding: 5%
+}
+
+.quote{
+    margin: 3% 5%;
+    font-size: larger;
+}
+.author{
+    display: block;
+    text-align: end;
+    margin-right: 10%;
+    
+}
+.ba{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+.button{
+    height: 40px;
+    width: 100px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    transition: background-color 0.5s ease-in-out;
+}
